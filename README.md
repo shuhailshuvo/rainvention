@@ -1,2 +1,3 @@
 # rainvention
-Coding convention used in Spring Rain
+
+Coding convention of Spring Rain Ltd.
