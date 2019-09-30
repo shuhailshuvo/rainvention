@@ -9,9 +9,8 @@
 
 rainvention is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
-- rainvention uses [Espreema](https://www.npmjs.com/package/espree) for JavaScript parsing.
+- rainvention uses [Esprima](https://www.npmjs.com/package/esprima) for JavaScript parsing.
 - rainvention uses an AST to evaluate patterns in code.
-- rainvention is completely pluggable.
 
 ## Table of Contents
 
