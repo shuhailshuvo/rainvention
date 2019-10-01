@@ -68,5 +68,5 @@
     "start": "node lib/index.js",
     "test": "mocha --timeout 10000 test/*-test.js test/security/*.js"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
