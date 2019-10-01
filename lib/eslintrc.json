@@ -9,11 +9,11 @@
     "func-name-matching": "error",
     "func-style": ["error", "expression"],
     "global-require": "error",
-    "max-lines-per-function": [2, { "min": 4, "max": 35 }],
+    "max-lines-per-function": [2, { "min": 4, "max": 20 }],
     "max-nested-callbacks": ["error", 3],
-    "max-params": ["error", 3],
+    "max-params": ["error", 4],
     "max-statements-per-line": ["error", 2],
-    "max-statements": [2, 10],
+    "max-statements": [1, 15],
     "no-console": "error",
     "no-shadow": "error",
     "no-unused-vars": "error",
@@ -149,7 +149,6 @@
     "radix": "error",
     "require-await": "error",
     "require-unicode-regexp": "error",
-    "vars-on-top": "error",
     "wrap-iife": "error",
     "yoda": "error",
     "init-declarations": "error",
@@ -199,7 +198,13 @@
         "Promise",
         "then",
         "await",
-        "Koa"
+        "Koa",
+        "Object",
+        "SourceCode",
+        "Linter",
+        "WordPOS",
+        "AST",
+        "RegExp"
       ]
     },
     "functions": {
