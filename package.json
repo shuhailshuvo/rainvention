@@ -1,44 +1,72 @@
 {
-  "name": "rainvention",
-  "version": "1.0.2",
-  "description": "Coding convention used by Spring Rain",
-  "engines": {
-    "node": ">=4.0.0"
+  "_from": "rainvention",
+  "_id": "rainvention@1.0.2",
+  "_inBundle": true,
+  "_integrity": "sha512-1qz0wmtRFg5iDKAD3607rxyNQHahbcQh9zjWimMWmporR2knTN/VZQCu9nQPy6ZAV11+PNdAVm9oBvLO9TH+eQ==",
+  "_location": "/rainvention",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rainvention",
+    "name": "rainvention",
+    "escapedName": "rainvention",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "dependencies": {},
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "start": "node lib/index.js",
-    "test": "mocha --timeout 10000 test/*-test.js test/security/*.js"
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/rainvention/-/rainvention-1.0.2.tgz",
+  "_shasum": "0c4d84381e6dfabd4909671f602eec663e7e9990",
+  "_spec": "rainvention",
+  "_where": "C:\\Users\\nazmu\\Desktop",
+  "author": {
+    "name": "Shuhail",
+    "email": "shuhail.alam@gmail.com"
   },
   "bin": {
     "rainvention": "./bin/global.js"
   },
-  "preferGlobal": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shuhailshuvo/rainvention.git"
+  "bugs": {
+    "url": "https://github.com/shuhailshuvo/rainvention/issues"
   },
+  "bundleDependencies": true,
+  "dependencies": {
+    "change-case": "^3.1.0",
+    "eslint": "^6.4.0",
+    "esprima": "^4.0.1",
+    "wordpos": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "Coding convention used by Spring Rain",
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/shuhailshuvo/rainvention#readme",
   "keywords": [
     "coding",
     "convention",
     "meta-programming",
     "code-review"
   ],
-  "author": "Shuhail <shuhail.alam@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuhailshuvo/rainvention/issues"
+  "main": "./lib/index.js",
+  "name": "rainvention",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuhailshuvo/rainvention.git"
   },
-  "homepage": "https://github.com/shuhailshuvo/rainvention#readme",
-  "devDependencies": {
-    "change-case": "^3.1.0",
-    "eslint": "^6.4.0",
-    "esprima": "^4.0.1",
-    "wordpos": "^1.2.0"
-  }
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "mocha --timeout 10000 test/*-test.js test/security/*.js"
+  },
+  "version": "1.0.2"
 }

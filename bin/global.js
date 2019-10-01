@@ -4,7 +4,7 @@
 const args = process.argv.splice(process.execArgv.length + 2);
 
 // Retrieve the first argument
-const name = args[0].replace("./", "");
+const name = args[0] ? args[0].replace("./", "") : "";
 
 const rainvention = require("../lib/index.js");
 
