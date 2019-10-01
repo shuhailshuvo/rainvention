@@ -1,6 +1,5 @@
 <div align="center">
     <h1>rainvention</h1>
-      <img alt="SpringRain" src="http://www.springrainit.com/img/spring-rain-logo.png" style="max-height:163px; width:100; height: auto; max-width:100%" />
 </div>
 
 <div align="center">
